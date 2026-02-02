@@ -12,7 +12,7 @@
         <x-slot:dropdown>
             <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Users</a>
             <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Roles</a>
-            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-sm">Employee</a>
+            <a href="{{ route('employees.index') }}" class="block px-4 py-2 hover:bg-gray-100 text-sm">Employee</a>
         </x-slot:dropdown>
     </x-molecules.nav-item>
 
