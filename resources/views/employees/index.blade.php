@@ -33,7 +33,7 @@
                                 <td class="px-4 py-2 text-sm text-gray-700">
                                     {{ optional($employee->hometown)->home_town_name }}</td>
                                 <td class="px-4 py-2 text-sm text-gray-700">
-                                    {{ \Illuminate\Support\Carbon::parse($employee->date_of_birth)->format('Y-m-d') }}
+                                    {{ \Illuminate\Support\Carbon::parse($employee->date_of_birth)->format('d M Y') }}
                                 </td>
                                 <td class="px-4 py-2 text-sm text-right">
                                     <a href="{{ route('employees.edit', $employee) }}"
