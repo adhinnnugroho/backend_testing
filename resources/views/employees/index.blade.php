@@ -1,9 +1,7 @@
 <x-app-layout>
     <div class="px-0">
-        <!-- Page Header (Title + Breadcrumb) -->
         <x-organisms.page-header />
 
-        <!-- Action Bar -->
         <div class="px-6 pb-6">
             <a href="{{ route('employees.create') }}"
                 class="inline-flex items-center px-4 py-2 bg-blue-500 border border-transparent rounded-sm font-semibold text-xs text-white hover:bg-blue-600 focus:bg-blue-600 active:bg-blue-700 focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
@@ -11,7 +9,6 @@
             </a>
         </div>
 
-        <!-- Page Content Placeholder -->
         <div class="px-6">
             <div class="bg-white shadow-sm border border-gray-200 rounded-sm overflow-hidden">
                 <table class="min-w-full divide-y divide-gray-200">
